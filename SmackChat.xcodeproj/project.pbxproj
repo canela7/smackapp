@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		152FCA1AB9D50F5C43FBC037 /* Pods_SmackChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEB55B6D66E28CD4622F286 /* Pods_SmackChat.framework */; };
+		DA076AB91F32768F00AB7378 /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA076AB81F32768F00AB7378 /* AuthServices.swift */; };
 		DA769C6D1F2FAA1800245463 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA769C6C1F2FAA1800245463 /* Constants.swift */; };
 		DA769C6F1F2FB55900245463 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA769C6E1F2FB55900245463 /* LoginVC.swift */; };
 		DA769C711F2FD71100245463 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA769C701F2FD71100245463 /* CreateAccountVC.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		1B1EE7300EA4ACDE5C6CBA7A /* Pods-SmackChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmackChat/Pods-SmackChat.debug.xcconfig"; sourceTree = "<group>"; };
 		ACEB55B6D66E28CD4622F286 /* Pods_SmackChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmackChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA076AB81F32768F00AB7378 /* AuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
 		DA769C6C1F2FAA1800245463 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DA769C6E1F2FB55900245463 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		DA769C701F2FD71100245463 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
@@ -62,6 +64,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DA076AB71F32765100AB7378 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DA076AB81F32768F00AB7378 /* AuthServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		DA769C6B1F2FA9F800245463 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +101,7 @@
 		DAE8BA451F2E69950029FAB4 /* SmackChat */ = {
 			isa = PBXGroup;
 			children = (
+				DA076AB71F32765100AB7378 /* Services */,
 				DA769C6B1F2FA9F800245463 /* Utilities */,
 				DAE8BA5E1F2EA4F70029FAB4 /* Model */,
 				DAE8BA5D1F2EA4F10029FAB4 /* View */,
@@ -279,6 +290,7 @@
 				DA769C6F1F2FB55900245463 /* LoginVC.swift in Sources */,
 				DAE8BA651F2EF8440029FAB4 /* GradientView.swift in Sources */,
 				DAE8BA471F2E69950029FAB4 /* AppDelegate.swift in Sources */,
+				DA076AB91F32768F00AB7378 /* AuthServices.swift in Sources */,
 				DAE8BA631F2EAB6A0029FAB4 /* SWRevealViewController.m in Sources */,
 				DA769C6D1F2FAA1800245463 /* Constants.swift in Sources */,
 			);
